@@ -1,0 +1,167 @@
+body{
+
+   font-family: Nunito ;
+   font-size: 22px;
+   /* background-image: url("https://picsum.photos/200/300");
+   */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1,3px;
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+h1 {
+
+    color: #2a3655;
+}
+
+h3{
+
+    color: blueviolet;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+
+p {
+
+    color: coral;
+    font-weight: bold;
+    margin: 0;
+}
+
+a {
+    color:#20d0ff;
+}
+a:hover {
+    color:orange;
+}
+
+footer strong {
+
+    text-decoration: underline;
+}
+
+table {
+
+    /* text-align: center; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid rebeccapurple;
+    color: cornflowerblue;
+    font-weight: bold;
+
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+
+}
+
+table th {
+    text-align: left;
+    color: #2a3655;
+}
+
+#main-content{
+    background-image: linear-gradient(170deg, #fff7f6, #cacaca );
+padding-left: 30px;
+padding-top: 80px;
+padding-bottom: 80px;
+display: flex;
+justify-content: space-between;
+
+
+
+}
+
+ #skills{
+padding: 40px;
+flex-grow: 1;
+/* align-self: center; */
+}
+
+/* .first-class {
+    color: red;
+}
+
+h1 {
+
+    color: green;
+}
+
+.third-class{
+color: red !important;
+
+}
+
+#first-id {
+
+    color: blue;
+} */
+
+table:hover {
+
+    color: brown;
+}
+
+/* table tr :first-child {
+    color:blue
+} */
+
+span {
+
+    display: block;
+}
+
+article {
+    margin-bottom:80px ;
+}
+
+#articles {
+flex-grow: 1;
+  
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 40px; */
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(45deg, #ebf9ff, #fff7f6 );
+   
+}
+
+footer {
+
+    left:0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color:#20d0ff;
+    color:#2a3655;
+}
+
+@media screen and (min-width: 600px){
+    footer {
+        position:fixed;
+
+    }
+}
+   
+
+@media screen and (max-width: 600px){
+    
+    #main-content, header{
+        flex-direction: column;
+    }
+}
